@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+nav {
+  background-color: black;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+ul li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 15px;
+  list-style: none;
+  color: white;
+}
+ul :first-child {
+    font-weight: 500;
+  margin-right: 810px;
+}
+main {
+  display: flex;
+}
+main section {
+  padding: 30px;
+  width: 70%;
+  margin-right: 150px;
+}
+main section h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+}
+main section p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+}
+main aside {
+  padding: 30px;
+  width: 20%;
+}
+.btn {
+  margin-top: 20px;
+  background-color: black;
+  width: 226px;
+  height: 58px;
+  left: 38px;
+  top: 662px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ffffff;
+}
+
+.images-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.img {
+  width: 500px;
+  height: 500px;
+}
+.image-h1 {
+  margin-left: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+}
