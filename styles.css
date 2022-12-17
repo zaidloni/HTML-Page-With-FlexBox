@@ -20,11 +20,12 @@ ul li {
   font-family: "Inter";
   font-style: normal;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 29px;
-  padding: 15px;
+  font-size: 20px;
+  line-height: 35px;
+  padding: 10px;
   list-style: none;
   color: white;
+  /* margin-left: 5px; */
 }
 ul :first-child {
     font-weight: 500;
@@ -75,10 +76,12 @@ main aside {
 .images-section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+
 }
 .img {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 .image-h1 {
   margin-left: 30px;
